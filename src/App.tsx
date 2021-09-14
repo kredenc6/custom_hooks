@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Toggle from "./components/Toggle/Toggle";
+import Timeout from "./components/Timeout/Timeout";
+import Debounce from "./components/Debounce/Debounce";
+import UpdateEffect from "./components/UpdateEffect/UpdateEffect";
+import ArrayComp from "./components/ArrayComp/ArrayComp";
+import EventListenerComp from "./components/EventListenerComp/EventListenerComp";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Toggle /> */}
+      {/* <Timeout /> */}
+      {/* <Debounce /> */}
+      {/* <UpdateEffect /> */}
+      {/* <ArrayComp /> */}
+      <EventListenerComp />
     </div>
   );
 }
-
-export default App;
